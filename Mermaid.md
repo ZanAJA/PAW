@@ -17,9 +17,6 @@ flowchart LR
         D[(SQLite Database)]
     end
 
-    F -->|HTTP JSON JWT| A
-    A -->|SQL Query| D
-
     style CLIENT fill:none,stroke:#ff4d6d,stroke-width:2px,stroke-dasharray:5 5
     style SERVER fill:none,stroke:#4da6ff,stroke-width:2px
     style DATA fill:none,stroke:#00c9a7,stroke-width:2px
