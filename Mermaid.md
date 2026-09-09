@@ -1,1 +1,8 @@
-'''mermaid flowchart LR U[User / Browser] subgraph CLIENT["Client Side - Untrusted"] F[Frontend Angular] end subgraph BACKEND["Server Side"] A[REST API / Express] AUTH[Authentication & Authorization] end subgraph DATA["Data Layer"] D[(SQLite Database)] end U -->|User Input| F F -->|HTTP / JSON / JWT| A A --> AUTH AUTH -->|Authorized Request| D'''
+## Diagram Trust Boundary
+
+```mermaid
+flowchart LR
+    U[User Browser] --> F[Frontend Angular]
+    F --> A[REST API Express]
+    A --> D[(SQLite Database)]
+```
