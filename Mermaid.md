@@ -18,7 +18,7 @@ flowchart LR
     F --> A
     A --> D
 
-    style CLIENT fill:none,stroke:#ff4d6d,stroke-width:2px,stroke-dasharray:6 4
+    style CLIENT fill:none,stroke-width:2px
     style SERVER fill:none,stroke-width:2px
-    style DATA fill:none,stroke:#00c9a7,stroke-width:2px
+    style DATA fill:none,stroke-width:2px
 ```
